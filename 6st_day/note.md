@@ -8,21 +8,21 @@ python以目录组织模块，，称为包(package)，一个abc.py的文件就�
 
 每个包目录下必须有一个__init.py__文件，没有这个文件python会把它当成空目录
 
-###作用域
+### 作用域
 正常命名的函数和变量名是public类，_ 开头的是私有类(private)
 
-###类
+### 类
 __init__ 方法的第一个参数只能是self，表示创建的实例本身
 
-###继承
+### 继承
 继承可以把父类的所有功能都直接拿过来，再累只需要新增自己特有的方法，也可以把父类不适合的方法覆盖重写
 
 动态语言的鸭子类型特点决定了集成不像静态语言那样是必须的。
 
-###types
+### types
 判断一个对象是否是函数：
 import types
 type(fn) == types.FunctionType
 
-###isinstance
+### isinstance
 isinstance([变量],[对象])
