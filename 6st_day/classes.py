@@ -9,6 +9,6 @@ class Dog(Animal):
 	"""docstring for Dog"""
 	def __init__(self):
 		pass
-dog = Dog()
+dog = Dog()     
 dog.run()
 		
