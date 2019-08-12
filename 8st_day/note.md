@@ -41,3 +41,30 @@ if s.resolution == 786432:
 else:
     print('测试失败!')
 ```
+
+### 多重继承
+使用方法
+```
+class Animal(object):
+	def __init__(self):
+		print('this is an Animal!')
+
+class Runable(object):
+	def run(self):
+		print('Running...')
+
+class Flyable(Animal):
+	def fly(self):
+			print('Flying...')
+
+class Dog(Animal,Runable):
+		def dog(self):
+			return print('dog')
+dogs = Dog()
+dogs.run()
+dogs.dog()
+```
+
+### MixIn多重继承
+
+因为python允许使用多重继承，所以MixIn为常见写法
