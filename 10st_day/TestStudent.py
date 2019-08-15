@@ -12,7 +12,6 @@ class TestStudent(unittest.TestCase):
         s2 = Student('Lisa', 79)
         self.assertEqual(s1.get_grade(), 'B')
         self.assertEqual(s2.get_grade(), 'B')
-
     def test_0_to_60(self):
         s1 = Student('Bart', 0)
         s2 = Student('Lisa', 59)
