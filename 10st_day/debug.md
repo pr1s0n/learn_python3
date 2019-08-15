@@ -1,3 +1,11 @@
+---
+title: 10st_day 调试
+categories: Python学习
+tags: Python
+date: 2019-8-14 18:10
+
+---
+
 ### 调试
 #### assert
 ```
