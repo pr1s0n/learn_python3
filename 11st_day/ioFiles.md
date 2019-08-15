@@ -1,3 +1,11 @@
+---
+title: st11_day IO编程笔记
+date: 2019-8-15 15:50
+categories: Python学习
+tags: Python
+toc: true
+
+---
 ### IO编程
 #### 读文件
 **open('路径','模式',encoding='编码方式',errors='ignore')**
@@ -22,7 +30,7 @@ with open('/test/test.txt','w') as f:
 1. os.name *返回操作操作系统类型，posix为Linux、Unix或Mac os x，nt为Windows操作系统。*
 2. os.uname *返回详细的系统信息，但是Windows不可使用*
 3. os.environ *返回系统中定义的环境变量，如果需要获取某个变量的值，可以调用os.environ.get()*
-
+<!--more-->
 
 #### 操作文件和目录
 ```
