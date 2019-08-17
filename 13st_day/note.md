@@ -1,3 +1,11 @@
+
+---
+title: st_day13 常用内建模块1
+categories: Python学习
+tags: Python
+toc: true
+---
+
 ### collections
 #### namedtuple
 **namedtuple**是一个函数，用来创建一个自定义的tuple对象，并且规定了tuple元素的个数，可以用属性来引用tuple的某个元素。
